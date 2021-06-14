@@ -250,7 +250,6 @@ export default class SortingVisualizer extends React.Component{
                 <button className="button" onClick={() => this.quickSort() }>Quick Sort</button>
                 <button className="button" onClick={() => this.heapSort() }>Heap Sort</button>
                 <button className="button" onClick={() => this.bubbleSort() }>Bubble Sort</button>
-                <button className="button" onClick={() => this.testSortingAlgorithms() }>Test Sorting Algorithms</button>
             </div>
 
             <div className="array-container">
