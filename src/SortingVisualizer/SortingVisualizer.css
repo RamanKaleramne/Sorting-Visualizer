@@ -1,0 +1,66 @@
+.main {
+    display: flex;
+    background-color:rgb(0, 0, 0);
+    height: 100vh;
+    width: 100vw;
+    justify-content: flex-start;
+  
+    flex-direction: column;
+}
+
+.buttons_body{
+    display: flex;
+    width: 100vw;
+    height: 75px;
+    background-color:Blueviolet;
+    align-self: center;
+    align-items: center;
+    
+}
+.project_name{
+    margin-left: 100px;
+    margin-right: 200px;
+    justify-self: flex-start;
+    color:white;
+    font-size: 30px;
+}
+.button{
+    margin-left: 20px;
+    border: none;
+    background-color: blueviolet;
+    font-size: 16px;
+    color: white;
+    padding: 4px 8px;
+    border-radius: 2px;
+    cursor: pointer;
+}
+.button:focus{
+    background-color: rgb(194, 145, 240);
+}
+
+.button:hover{
+    background-color: rgb(194, 145, 240);
+}
+
+.button:active {
+    transform: scale(0.98);
+    /* Scaling button to 0.98 to its original size */
+}
+
+.array-container {
+    display: flex;
+    height: 80vh;
+    width: 80vw;
+    margin-top: 25px;
+    background-color: rgb(0, 0, 0);
+    align-self: center;
+    align-items: flex-end;
+    
+}
+
+.array-bar {
+    width: 2px;
+    background-color: blueviolet; 
+    margin-left: 3px; 
+}
+
